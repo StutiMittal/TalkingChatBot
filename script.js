@@ -9,5 +9,5 @@ recognition.onresult = function (event) {
   console.log(event);
 };
 button.addEventListener("click", () => {
-  recognition.start();
+  recognition.onStart();
 });
