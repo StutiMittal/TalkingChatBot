@@ -8,4 +8,6 @@ recognition.onStart = function () {
 recognition.onresult = function (event) {
   console.log(event);
 };
-button.addEventListener("click", () => {});
+button.addEventListener("click", () => {
+  recognition.start();
+});
